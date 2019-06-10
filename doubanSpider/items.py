@@ -9,6 +9,9 @@ import scrapy
 
 
 class DoubanspiderItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+    title = scrapy.Field()
+    sub_title = scrapy.Field()
+    score = scrapy.Field()
+    people_counting = scrapy.Field()
+    url = scrapy.Field()
     pass
